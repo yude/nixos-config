@@ -119,6 +119,10 @@ in
       userName  = "yude";
       userEmail = "i@yude.jp";
     };
+
+    programs.starship = {
+      enable = true; 
+    }
   };
 
   virtualisation.docker.enable = true;
