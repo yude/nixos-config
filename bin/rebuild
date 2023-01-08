@@ -1,0 +1,5 @@
+#!/bin/sh
+if sudo nixos-rebuild build -I nixos-config=$HOME/configuration.nix/configuration.nix ; then
+    sudo nixos-rebuild switch --upgrade -I nixos-config=$HOME/configuration.nix/configuration.nix
+fi
+
