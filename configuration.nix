@@ -118,6 +118,10 @@ in
       enable = true;
       userName  = "yude";
       userEmail = "i@yude.jp";
+
+      extraConfig = {
+        credential."https://github.com".helper = "!gh auth git-credential";
+      }
     };
 
     programs.starship = {
