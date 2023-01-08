@@ -1,3 +1,2 @@
 #!/bin/sh
 sudo nixos-rebuild switch --upgrade -I nixos-config=$HOME/configuration.nix/configuration.nix
-
