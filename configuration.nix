@@ -121,12 +121,12 @@ in
 
       extraConfig = {
         credential."https://github.com".helper = "!gh auth git-credential";
-      }
+      };
     };
 
     programs.starship = {
       enable = true; 
-    }
+    };
   };
 
   virtualisation.docker.enable = true;
